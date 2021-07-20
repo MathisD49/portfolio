@@ -1,0 +1,14 @@
+* {
+  font-family: georgia, serif;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
