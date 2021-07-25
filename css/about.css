@@ -1,0 +1,36 @@
+* {
+  font-family: georgia, serif;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.titre {
+  color: #E39024;
+  font-size: 20px;
+  text-align: center;
+  border-bottom: solid;
+  border-color: #E39024;
+  border-width: 1px;
+}
+
+.profile p {
+  text-align: center;
+}
+
+.bloc_download {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: #E39024;
+}
