@@ -34,3 +34,56 @@ body {
   margin-right: 100px;
   background-color: #E39024;
 }
+
+.bloc_formation .diplome {
+  text-align: center;
+  font-weight: bold;
+}
+
+.bloc_formation .ecole, .bloc_formation .date {
+  margin-left: 15px;
+}
+
+.bloc_formation {
+  border: solid;
+  margin: 10px;
+}
+
+.bloc_experience .entreprise {
+  text-align: center;
+  font-weight: bold;
+}
+
+.bloc_experience .description, .bloc_experience .date {
+  margin-left: 15px;
+}
+
+.bloc_experience {
+  border: solid;
+  margin: 10px;
+}
+
+.lien_savoir_plus {
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.container_skills {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.container_hardskills, .container_softskills {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: solid;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+progress {
+  margin-left: 22px;
+  margin-right: 22px;
+}
