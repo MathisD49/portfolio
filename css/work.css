@@ -1,0 +1,30 @@
+* {
+  font-family: georgia, serif;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.work_bloc {
+  border: solid;
+  margin: 15px;
+  text-align: center;
+}
+
+.titre {
+  font-weight: bold;
+}
+
+img {
+  width: 15%;
+  height: auto;
+}
