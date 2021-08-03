@@ -14,6 +14,7 @@ body {
   border-bottom: solid;
   border-color: #E39024;
   border-width: 1px;
+  font-weight: bold;
 }
 
 .bloc_section {
