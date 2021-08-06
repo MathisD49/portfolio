@@ -20,3 +20,23 @@ body {
 .bloc_section {
   margin: 10px;
 }
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.navbar span {
+  padding: 10px;
+}
+
+.navbar span:hover {
+  background-color: #E39024;
+  color: #000000;
+}
+
+.navbar a:link, .navbar a:visited {
+  color: #E39024;
+}

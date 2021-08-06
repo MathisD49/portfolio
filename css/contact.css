@@ -27,18 +27,3 @@ body {
 .navbar a:link, .navbar a:visited {
   color: #E39024;
 }
-
-.work_bloc {
-  border: solid;
-  margin: 15px;
-  text-align: center;
-}
-
-.titre {
-  font-weight: bold;
-}
-
-img {
-  width: 15%;
-  height: auto;
-}
