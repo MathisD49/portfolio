@@ -40,3 +40,15 @@ body {
 .navbar a:link, .navbar a:visited {
   color: #E39024;
 }
+
+.logo_texte {
+  text-align: center;
+}
+
+
+
+.logo_texte img {
+  width: 75%;
+  height: auto;
+  margin-bottom: 1px;
+}
