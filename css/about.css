@@ -24,7 +24,7 @@ body {
   color: #000000;
 }
 
-.navbar a:link, .navbar a:visited {
+.navbar a:link, .navbar a:visited, a {
   color: #E39024;
 }
 
