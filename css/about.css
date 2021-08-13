@@ -24,8 +24,12 @@ body {
   color: #000000;
 }
 
-.navbar a:link, .navbar a:visited, a {
+.navbar a:link, .navbar a:visited, .bloc_experience a {
   color: #E39024;
+}
+
+.bloc_download a {
+  color: #000000;
 }
 
 
