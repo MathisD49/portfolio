@@ -106,3 +106,120 @@ progress {
   margin-left: 22px;
   margin-right: 22px;
 }
+
+@media screen and (min-width: 470px) {
+  .bloc_download span {
+    font-size: 18px;
+  }
+
+  .bloc_download {
+    margin-left: 140px;
+    margin-right: 140px;
+  }
+}
+
+@media screen and (min-width: 610px) {
+  .bloc_download span {
+    font-size: 20px;
+  }
+
+  .bloc_download {
+    margin-left: 220px;
+    margin-right: 220px;
+  }
+}
+
+@media screen and (min-width: 700px){
+  .navbar, .titre {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 730px) {
+  .profile p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .bloc_download span {
+    font-size: 22px;
+  }
+
+  .bloc_download {
+    margin-left: 260px;
+    margin-right: 260px;
+  }
+}
+
+@media screen and (min-width: 890px) {
+  .bloc_download span {
+    font-size: 24px;
+  }
+
+  .bloc_download {
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .profile p {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 990px){
+  .navbar, .titre {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 1030px) {
+  .bloc_download span {
+    font-size: 26px;
+  }
+
+  .bloc_download {
+    margin-left: 340px;
+    margin-right: 340px;
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .profile p {
+    font-size: 30px;
+  }
+
+  .bloc_download span {
+    font-size: 28px;
+  }
+
+  .bloc_download {
+    margin-left: 380px;
+    margin-right: 380px;
+  }
+}
+
+@media screen and (min-width: 1260px) {
+  .navbar, .titre {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 1310px) {
+  .bloc_download span {
+    font-size: 30px;
+  }
+
+  .bloc_download {
+    margin-left: 420px;
+    margin-right: 420px;
+  }
+}
+
+@media screen and (min-width: 1550px) {
+  .profile p {
+    font-size: 32px;
+  }
+}
