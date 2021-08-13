@@ -118,7 +118,7 @@ progress {
 }
 
 @media screen and (min-width: 470px) {
-  .bloc_download span, .contenu_interet, .bloc_formation, .bloc_experience {
+  .bloc_download span, .contenu_interet, .bloc_formation, .bloc_experience, .container_hardskills, .container_softskills {
     font-size: 18px;
   }
 
@@ -129,7 +129,7 @@ progress {
 }
 
 @media screen and (min-width: 610px) {
-  .bloc_download span, .contenu_interet, .bloc_formation, .bloc_experience {
+  .bloc_download span, .contenu_interet, .bloc_formation, .bloc_experience, .container_hardskills, .container_softskills {
     font-size: 20px;
   }
 
@@ -157,7 +157,7 @@ progress {
 }
 
 @media screen and (min-width: 750px) {
-  .bloc_download span, .contenu_interet, .bloc_formation, .bloc_experience {
+  .bloc_download span, .contenu_interet, .bloc_formation, .bloc_experience, .container_hardskills, .container_softskills {
     font-size: 22px;
   }
 
@@ -168,7 +168,7 @@ progress {
 }
 
 @media screen and (min-width: 890px) {
-  .bloc_download span, .contenu_interet, .bloc_formation, .bloc_experience {
+  .bloc_download span, .contenu_interet, .bloc_formation, .bloc_experience, .container_hardskills, .container_softskills {
     font-size: 24px;
   }
 
@@ -182,27 +182,12 @@ progress {
   .profile p {
     font-size: 24px;
   }
-}
 
-/* @media screen and (min-width: 950px) {
-  /* .formation_container {
+  .container_skills {
     flex-direction: row;
     justify-content: space-around;
   }
-
-  .experience_container {
-    flex-direction: row;
-    justify-content: center;
-  } */
-
-  /* .bloc_formation, , .bloc_experience {
-    padding: 40px;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
-  } */
-
-} */
+}
 
 @media screen and (min-width: 990px){
   .navbar, .titre {
@@ -211,7 +196,7 @@ progress {
 }
 
 @media screen and (min-width: 1030px) {
-  .bloc_download span, .contenu_interet, .bloc_formation, .bloc_experience {
+  .bloc_download span, .contenu_interet, .bloc_formation, .bloc_experience, .container_hardskills, .container_softskills {
     font-size: 26px;
   }
 
@@ -226,7 +211,7 @@ progress {
     font-size: 30px;
   }
 
-  .bloc_download span, .contenu_interet, .bloc_formation, .bloc_experience {
+  .bloc_download span, .contenu_interet, .bloc_formation, .bloc_experience, .container_hardskills, .container_softskills {
     font-size: 28px;
   }
 
@@ -243,7 +228,7 @@ progress {
 }
 
 @media screen and (min-width: 1310px) {
-  .bloc_download span, .contenu_interet, .bloc_formation, .bloc_experience {
+  .bloc_download span, .contenu_interet, .bloc_formation, .bloc_experience, .container_hardskills, .container_softskills {
     font-size: 30px;
   }
 
