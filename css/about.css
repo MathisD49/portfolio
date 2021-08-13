@@ -59,7 +59,7 @@ body {
   text-align: center;
 }
 
-.formation_container {
+.formation_container, .experience_container {
   display: flex;
   flex-direction: column;
 }
@@ -118,24 +118,29 @@ progress {
 }
 
 @media screen and (min-width: 470px) {
-  .bloc_download span, .contenu_interet, .bloc_formation {
+  .bloc_download span, .contenu_interet, .bloc_formation, .bloc_experience {
     font-size: 18px;
   }
 
-  .bloc_download {
+  .bloc_download, .bloc_formation, .bloc_experience {
     margin-left: 140px;
     margin-right: 140px;
   }
 }
 
 @media screen and (min-width: 610px) {
-  .bloc_download span, .contenu_interet, .bloc_formation {
+  .bloc_download span, .contenu_interet, .bloc_formation, .bloc_experience {
     font-size: 20px;
   }
 
   .bloc_download {
     margin-left: 220px;
     margin-right: 220px;
+  }
+
+  .bloc_formation, .bloc_experience {
+    margin-left: 220px;
+    margin-right: 200px;
   }
 }
 
@@ -152,22 +157,22 @@ progress {
 }
 
 @media screen and (min-width: 750px) {
-  .bloc_download span, .contenu_interet, .bloc_formation {
+  .bloc_download span, .contenu_interet, .bloc_formation, .bloc_experience {
     font-size: 22px;
   }
 
-  .bloc_download {
+  .bloc_download, .bloc_formation, .bloc_experience {
     margin-left: 260px;
     margin-right: 260px;
   }
 }
 
 @media screen and (min-width: 890px) {
-  .bloc_download span, .contenu_interet, .bloc_formation {
+  .bloc_download span, .contenu_interet, .bloc_formation, .bloc_experience {
     font-size: 24px;
   }
 
-  .bloc_download {
+  .bloc_download, .bloc_formation, .bloc_experience {
     margin-left: 300px;
     margin-right: 300px;
   }
@@ -179,16 +184,25 @@ progress {
   }
 }
 
-@media screen and (min-width: 950px) {
-  .formation_container {
+/* @media screen and (min-width: 950px) {
+  /* .formation_container {
     flex-direction: row;
     justify-content: space-around;
   }
 
-  .bloc_formation {
+  .experience_container {
+    flex-direction: row;
+    justify-content: center;
+  } */
+
+  /* .bloc_formation, , .bloc_experience {
     padding: 40px;
-  }
-}
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+  } */
+
+} */
 
 @media screen and (min-width: 990px){
   .navbar, .titre {
@@ -197,11 +211,11 @@ progress {
 }
 
 @media screen and (min-width: 1030px) {
-  .bloc_download span, .contenu_interet, .bloc_formation {
+  .bloc_download span, .contenu_interet, .bloc_formation, .bloc_experience {
     font-size: 26px;
   }
 
-  .bloc_download {
+  .bloc_download, .bloc_formation, .bloc_experience {
     margin-left: 340px;
     margin-right: 340px;
   }
@@ -212,11 +226,11 @@ progress {
     font-size: 30px;
   }
 
-  .bloc_download span, .contenu_interet, .bloc_formation {
+  .bloc_download span, .contenu_interet, .bloc_formation, .bloc_experience {
     font-size: 28px;
   }
 
-  .bloc_download {
+  .bloc_download, .bloc_formation, .bloc_experience {
     margin-left: 380px;
     margin-right: 380px;
   }
@@ -229,11 +243,11 @@ progress {
 }
 
 @media screen and (min-width: 1310px) {
-  .bloc_download span, .contenu_interet, .bloc_formation {
+  .bloc_download span, .contenu_interet, .bloc_formation, .bloc_experience {
     font-size: 30px;
   }
 
-  .bloc_download {
+  .bloc_download, .bloc_formation, .bloc_experience {
     margin-left: 420px;
     margin-right: 420px;
   }
