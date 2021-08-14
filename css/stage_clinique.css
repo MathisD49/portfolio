@@ -7,6 +7,11 @@ body {
   color: #ffffff;
 }
 
+h1 {
+  text-align: center;
+  margin-top: 25px;
+}
+
 .titre {
   color: #E39024;
   font-size: 15px;
@@ -45,10 +50,58 @@ body {
   text-align: center;
 }
 
-
-
 .logo_texte img {
   width: 75%;
   height: auto;
   margin-bottom: 1px;
+}
+
+.logo_texte p {
+  font-size: 13px;
+  font-style: italic;
+}
+
+.logo_textes_container {
+  margin-bottom: 40px;
+}
+
+.descripion {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 600px) {
+  .logo_texte img {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 700px){
+  .navbar, .titre {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 990px){
+  .navbar, .titre {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .logo_texte img {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1260px){
+  .navbar, .titre {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .logo_texte img {
+    width: 30%;
+  }
 }
